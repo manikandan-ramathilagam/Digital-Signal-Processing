@@ -1,7 +1,6 @@
 # Digital-Signal-Processing
-Edge Detection and Feature extraction
 
-# Edge Detection and Feature Extraction
+## Edge Detection and Feature Extraction
 
 This repository contains the implementation and evaluation of various classical and advanced edge detection and feature extraction techniques. The project transitions from simple first-order derivative operators to the sophisticated, multi-stage Canny pipeline, analyzing their spectral responses and robustness to noise.
 
@@ -36,9 +35,3 @@ The algorithms were benchmarked on both synthetic checkerboard images (for contr
 - **Laplacian Operator:** Highly sensitive to noise, producing fragmented edges due to unstable zero-crossings when noise is present.
 - **Marr-Hildreth (LoG):** Improves noise robustness through prior smoothing but achieves worse results on noise-free synthetic patterns.
 - **Canny Detector:** Consistently yields the highest-quality results, producing thin, continuous boundaries and successfully filtering out noise-induced artifacts in real-world scenarios.
-
-## 📂 Repository Structure
-
-├── main.pdf              # Final project report
-├── Project.ipynb         # Main Jupyter Notebook containing the implementation
-└── README.md             # Project documentation
